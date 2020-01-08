@@ -3,7 +3,7 @@ import { resolve } from 'path';
 
 const server = new GraphQLServer({
   typeDefs: resolve(__dirname, 'schema.graphql'),
-  resolvers: {}
+  resolvers: {},
 });
 
 server.start();
