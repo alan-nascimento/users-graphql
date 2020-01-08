@@ -1,0 +1,22 @@
+{
+  "name": "@graphql/application",
+  "version": "1.0.0",
+  "description": "GraphQL application using Node and TypeScript.",
+  "main": "src/server.ts",
+  "repository": "git@github.com:alan-nascimento/users-graphql.git",
+  "author": "Alan Nascimento <alan.silva.n@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "sucrase-node src/server.ts"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.0",
+    "typescript": "^3.7.4"
+  }
+}
