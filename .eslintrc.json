@@ -19,6 +19,7 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
+    "semi": "off",
     "no-useless-constructor": "off",
     "import/extensions": "off",
     "import/prefer-default-export": "off"

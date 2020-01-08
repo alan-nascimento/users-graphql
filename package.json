@@ -12,9 +12,12 @@
     "start": "sucrase-node src/server.ts"
   },
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^4.13.20"
   },
   "devDependencies": {
+    "@types/mongoose": "^5.5.39",
+    "@types/node": "^13.1.4",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
     "eslint": "^6.8.0",

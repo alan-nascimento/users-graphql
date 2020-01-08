@@ -1,13 +1,12 @@
 import { User } from './models';
-import users from './seeds/users';
 
 export default {
   Query: {
-    users: (): User[] => users,
-    user: (): User => users[0],
+    users: (): any => User.find(),
+    user: (_, { id }): any => User.findById(id),
   },
 
   Mutation: {
-    createUser: (): User => users[0],
+    createUser: (_, { name, email }): any => User.create({ name, email }),
   },
 };
