@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "graphql-yoga": "^1.18.3",
-    "mongoose": "^4.13.20"
+    "mongoose": "^4.13.21"
   },
   "devDependencies": {
     "@types/mongoose": "^5.5.39",
